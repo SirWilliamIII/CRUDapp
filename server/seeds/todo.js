@@ -2,6 +2,7 @@
 exports.seed = function(knex, Promise) {
   return knex('todo').del()
     .then(function () {
+
       const todos = [{
       	  title: 'Build CRUD app',
 	      priority: 1,
@@ -19,6 +20,7 @@ exports.seed = function(knex, Promise) {
 	      priority: 3,
 	      date: new Date()
       }];
+
       return knex('todo').insert(todos);
     });
 };
