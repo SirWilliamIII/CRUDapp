@@ -1,7 +1,13 @@
 body {
     margin-top: 50px;
     padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 15px "Avenir Next", Helvetica, Arial, sans-serif;
+}
+
+textarea {
+    height: 200px;
+    width: 160px;
+    overflow: hidden;
 }
 
 a {
