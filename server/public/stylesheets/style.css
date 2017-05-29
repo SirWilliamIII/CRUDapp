@@ -4,11 +4,6 @@ body {
     font: 15px "Avenir Next", Helvetica, Arial, sans-serif;
 }
 
-textarea {
-    height: 200px;
-    width: 160px;
-    overflow: hidden;
-}
 
 a {
     color: #00B7FF;
