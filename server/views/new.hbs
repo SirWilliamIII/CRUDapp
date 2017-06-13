@@ -1,12 +1,11 @@
 <form action="/todo" class="form" method="post">
     <div class="form-group">
-        <label for="title" class="label-warning"><h3>TITLE</h3></label>
-        <input type="text" class="form-control" id="title" placeholder="Enter a TODO..." name="title">
+        <label for="title"><h3>TITLE</h3></label>
+        <input type="text" id="title" placeholder="Enter a TODO..." name="title">
     </div>
     <div class="form-group">
-        <label for="description" class="label-warning"><h3>Description</h3></label>
-        <textarea type="text" class="form-control" id="description" placeholder="Enter a description..." name="description"></textarea>
-        <p class="help-block">Help Text Here</p>
+        <label for="description"><h3>Description </h3></label>
+        <textarea name="description" id="description" cols="30" rows="10" class="form-control" placeholder="Enter a description..."></textarea>
     </div>
     <div class="form-group">
         <label for="priority"><h3>Priority</h3></label>
@@ -18,7 +17,7 @@
             <option>5</option>
         </select>
     </div>
-    <button type="submit" class="btn btn-success btn-default">
+    <button type="submit" class="btn btn-success">
         Create
     </button>
 </form>
